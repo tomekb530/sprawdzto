@@ -1,0 +1,32 @@
+{
+  "name": "checkashop",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www --ignore 'cache/*.json'"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.20.0",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "~4.16.1",
+    "get-ssl-certificate": "^2.3.3",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.7",
+    "puppeteer": "^23.4.1",
+    "random-useragent": "^0.5.0",
+    "simplecrawler": "^1.1.9",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "ssl-checker": "^2.0.10",
+    "whois": "^2.14.2",
+    "whois-json": "^2.0.4"
+  }
+}
